@@ -25,7 +25,7 @@
     –views          放着就是页面文件了
     –app.js         项目的入口文件。当然你也可以改成其他的名字。
     –package.json    项目版本信息文件
-    -move.sql        mysql导出文件
+    –move.sql        mysql导出文件
     
 #### 三、环境要求
 - nodejs 6.0以上版本
