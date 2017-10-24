@@ -1,9 +1,8 @@
 # nodejs web开发框架
 ### 作者：eaglet 7488719
-### 2017年3月设计
-### 天津市工业大学计算机科学与软件学院
+### 天津市工业大学 计算机科学与软件学院 天津市大学软件学院
 
-#### 目录
+#### Disabled options
 
 - 简介
 - 目录结构介绍
@@ -12,10 +11,11 @@
 - 如何启动
 
 #### 一、简介
-  本框架是基于nodejs express框架二次开发的，参考之前的一些项目结构和ASP.NET MVC框架修改而成，本框架包含数据库操作示例和注解，适合nodejs入门学习和开发人员开发中小型的web项目。
+  本框架是基于nodejs express框架二次开发的，参考之前的一些项目结构和ASP.NET MVC框架修改而成，本框架包含数据库操作示例和注解。
+  适合nodejs入门学习和开发中小型项目。
 
 #### 二、目录结构介绍
-   –bin            项目的底层核心，路由配置文件
+    –bin            项目的底层核心，路由配置文件
 	-conf           配置目录（数据库连接信息和数据库工具模块）
 	-Controller     控制器目录
 	-DAL            数据层目录
@@ -25,7 +25,7 @@
     –views          放着就是页面文件了
     –app.js         项目的入口文件。当然你也可以改成其他的名字。
     –package.json    项目版本信息文件
-    -move.sql        mysql导出文件 
+	-move.sql        mysql导出文件 
     
 #### 三、环境要求
 - nodejs 6.0以上版本
@@ -75,3 +75,5 @@ Watching directory 'D:\nodejs\nodejs_http_framework' for changes.
 Press rs for restarting the process.
 
 ```
+
+
