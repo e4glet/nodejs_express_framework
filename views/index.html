@@ -1,0 +1,26 @@
+<% include template/header.html %>
+<div id="content">
+	<h1>顺风搬家预约登记</h1>
+	<form action="/bookinghandle" method="post">
+		<ul>
+			<li>起始地区：
+				<select name="area">
+					<option value="海淀区">海淀区</option>
+					<option value="朝阳区">朝阳区</option>
+					<option value="西城区">西城区</option>
+					<option value="东城区">东城区</option>
+				</select>
+			</li>
+			<li>所用车型：<input type="radio" name="cars"value="金杯"/>金杯<input type="radio" name="cars"value="皮卡"/>皮卡
+				<input type="radio" checked="checked" name="cars" value="厢式货车"/>厢式货车
+				<input type="radio" name="cars" value="1041货车"/>1041货车</li>
+			<li>搬家日期：<input type="date" name="date" value=""/> </li>
+			<li>联系人：<input type="text" name="user" /> </li>
+			<li>联系电话：<input type="text" name="phone_head" style="width: 50px;"/>-<input name="phone_content" type="text"/> 
+			</li>
+		</ul>
+
+		<input type="submit" value="预约登记" />
+	</form>
+</div>
+<% include template/footer.html %>
