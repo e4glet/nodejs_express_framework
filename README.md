@@ -1,5 +1,5 @@
 # nodejs web开发框架
-### 作者：eaglet 7488719
+### 作者：eaglet liyaohua8468@gmail.com
 ### 天津市工业大学 计算机科学与软件学院 天津市大学软件学院
 
 #### 目录
@@ -99,4 +99,4 @@ CMD [ "npm", "start" ]
 ```
 ## 小结
 这个web项目框架不一定是最好的框架，但是希望可以帮助一些想学习nodejs的朋友。如果你有更好改进建议，欢迎指正。
-邮箱：7488719@qq.com
+邮箱：liyaohua8468@gmail.com
